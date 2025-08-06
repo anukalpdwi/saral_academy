@@ -43,8 +43,8 @@ const Header = () => {
                 }}
               />
               <div>
-                <h1 className="text-xl font-bold text-gray-800">Saral Academy</h1>
-                <p className="text-xs text-gray-600">Language School</p>
+                <h1 className="text-sm font-bold text-gray-800">༺꧁SARAL ACADEMY SCHOOL꧂༻
+</h1>
               </div>
             </Link>
 

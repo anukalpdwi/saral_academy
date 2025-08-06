@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Target, BookOpen, Award } from 'lucide-react';
+import { Heart, Target, BookOpen, Award, Clock } from 'lucide-react';
 
 const About = () => {
   return (
@@ -22,10 +22,15 @@ const About = () => {
               with Hindi and Sanskrit due to inadequate support in their regular curriculum.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              What started as a mission to help local students has now evolved into a comprehensive 
-              online language institute, serving learners across India and beyond. Our transition 
-              to online education has allowed us to maintain our personalized approach while 
-              reaching students who need quality language instruction regardless of their location.
+              In the fall of 2008, Saral Academy of Excellence was established with the original 
+              purpose of providing world-class, cost-effective education and instruction for anyone 
+              seeking support and excellence in Hindi and Sanskrit language skills. What started as 
+              a mission to help local students has now evolved into a comprehensive online language 
+              institute, serving learners across India and beyond.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Our transition to online education has allowed us to maintain our personalized approach 
+              while reaching students who need quality language instruction regardless of their location.
             </p>
             <div className="bg-gradient-to-r from-orange-50 to-red-50 p-6 rounded-xl border-l-4 border-orange-500">
               <h4 className="font-semibold text-gray-800 mb-2">Founder's Message</h4>
@@ -42,7 +47,7 @@ const About = () => {
               <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-6 h-6 text-white" />
               </div>
-              <h4 className="font-bold text-gray-800 mb-2">26+ Years</h4>
+              <h4 className="font-bold text-gray-800 mb-2">27+ Years</h4>
               <p className="text-sm text-gray-600">Educational Excellence</p>
             </div>
 
@@ -87,6 +92,10 @@ const About = () => {
             <p className="text-gray-700 leading-relaxed">
               To provide personalized, comprehensive language instruction that builds confidence, 
               cultural understanding, and academic success through innovative teaching methodologies.
+              In essence, we aim to provide the best process improvement methodologies in a public 
+              forum, extending the state-of-the-art in both continuous and breakthrough improvement 
+              methodologies. This includes teaching, research, coaching, mentoring, and diagnostics 
+              with gap analysis and gap filling. Want academic and spoken support? We’re here to help!
             </p>
           </div>
         </div>

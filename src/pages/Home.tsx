@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X } from 'lucide-react';
+import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X, Calendar, Clock as ClockIcon } from 'lucide-react';
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -88,20 +88,20 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="pb-12 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 min-h-screen flex items-center">
+      <section className="pb-12 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 min-h-screen flex items-center mt-5">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                  Welcome to <span className="text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text">Saral Academy</span>
+                  Welcome to <span className="text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text">༺꧁SARAL ACADEMY SCHOOL꧂༻</span>
                 </h1>
                 <p className="text-xl text-gray-600 font-medium">
                   The School of Language Skills & Development
                 </p>
                 <p className="text-lg text-gray-700 max-w-xl">
-                  Learn Hindi, Sanskrit, and English from the comfort of your home with 26+ years of educational excellence and personalized teaching approach.
+                  Learn Hindi, Sanskrit, and English from the comfort of your home with 27+ years of educational excellence and personalized teaching approach.
                 </p>
               </div>
 
@@ -112,7 +112,7 @@ const Home = () => {
                     <Star className="w-5 h-5 text-orange-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-800">26+ Years</p>
+                    <p className="font-semibold text-gray-800">27+ Years</p>
                     <p className="text-sm text-gray-600">Experience</p>
                   </div>
                 </div>
@@ -176,7 +176,7 @@ const Home = () => {
                     </div>
                     <div className="flex items-center justify-between py-2 px-3 bg-gray-50 rounded-lg">
                       <span className="text-gray-700">Current Base</span>
-                      <span className="font-semibold text-orange-600">Nashik (Online)</span>
+                      <span className="font-semibold text-orange-600">Hyderabad (Online)</span>
                     </div>
                     <div className="flex items-center justify-between py-2 px-3 bg-gray-50 rounded-lg">
                       <span className="text-gray-700">Languages</span>
@@ -189,6 +189,36 @@ const Home = () => {
               {/* Decorative Elements */}
               <div className="absolute -top-4 -right-4 w-20 h-20 bg-yellow-200 rounded-full opacity-70"></div>
               <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-red-200 rounded-full opacity-70"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* School Days & Timings */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">School Days & Timings</h2>
+            <p className="text-lg text-gray-600">Structured schedules to fit your learning needs</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <div className="flex items-center space-x-4 mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center">
+                  <Calendar className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Monday to Friday</h3>
+              </div>
+              <p className="text-gray-700 text-lg">3:30 p.m. to 7:00 p.m.</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <div className="flex items-center space-x-4 mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                  <Calendar className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Saturday & Sunday</h3>
+              </div>
+              <p className="text-gray-700 text-lg">9:00 a.m. to 1:00 p.m.</p>
             </div>
           </div>
         </div>
@@ -284,6 +314,50 @@ const Home = () => {
             >
               Learn More About Us
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Teachings & Values */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">What We Teach & Value</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Beyond languages, we nurture holistic growth and cultural understanding
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="space-y-4">
+              <p className="text-lg text-gray-700">
+                We are not only teaching and spreading the value of our National Language Hindi but with that we teach children:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Useful Mantras for everyday life</li>
+                <li>Value of Indian culture & other cultures</li>
+                <li>Slokas and Ancient stories</li>
+                <li>Value of values</li>
+                <li>Yog and Philosophy</li>
+                <li>Lifestyle (Ancient & Modern)</li>
+                <li>The actual use of language:
+                  <ul className="list-disc list-inside ml-6">
+                    <li>Reading understanding</li>
+                    <li>Writing understanding</li>
+                    <li>Listening understanding</li>
+                    <li>Speaking understanding</li>
+                  </ul>
+                </li>
+                <li>Basic and Advanced Grammar & History of Grammar</li>
+              </ul>
+            </div>
+            <div className="space-y-6 text-center">
+              <p className="text-2xl font-semibold text-gray-800 italic">
+                Learn, Teach, Explore and Make others get benefited
+              </p>
+              <p className="text-xl text-gray-700">
+                Your single support can change lives
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -411,7 +485,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold mb-2">26+</div>
+              <div className="text-4xl font-bold mb-2">27+</div>
               <div className="text-orange-100">Years Experience</div>
             </div>
             <div>
