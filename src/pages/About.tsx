@@ -18,7 +18,7 @@ const About = () => {
             <h3 className="text-3xl font-bold text-gray-800">Our Story</h3>
             <p className="text-gray-700 leading-relaxed">
               Established in 2001 in Hyderabad by Dr. Akhilesh Hathila, Saral Academy was born 
-              from a recognition that students in ICSE and international schools often struggled 
+              from a recognition that students in <span className="font-bold">CBSE, ICSC, IGSC AND SSC</span> often struggled 
               with Hindi and Sanskrit due to inadequate support in their regular curriculum.
             </p>
             <p className="text-gray-700 leading-relaxed">

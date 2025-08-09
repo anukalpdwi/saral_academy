@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X, Calendar, Clock as ClockIcon } from 'lucide-react';
+import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X, Calendar, Clock as ClockIcon, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -85,6 +85,13 @@ const Home = () => {
     }
   ];
 
+  const socialMediaLinks = [
+    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/saralacademy', color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-500' },
+    { name: 'Facebook', icon: Facebook, url: 'https://www.facebook.com/saralacademy', color: 'hover:bg-blue-600' },
+    { name: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@saralacademy', color: 'hover:bg-red-600' },
+    { name: 'X', icon: X, url: 'https://x.com/saralacademy', color: 'hover:bg-gray-800' }
+  ];
+
   return (
     <div>
       {/* Hero Section */}
@@ -95,7 +102,7 @@ const Home = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                  Welcome to <span className="text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text">༺꧁SARAL ACADEMY SCHOOL꧂༻</span>
+                  Welcome to <span className="text-transparent bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text">༺꧁SARAL ACADEMY SCHOOL꧂༻</span>
                 </h1>
                 <p className="text-xl text-gray-600 font-medium">
                   The School of Language Skills & Development
@@ -527,6 +534,32 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer with Social Media Icons */}
+      <footer className="py-12 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center space-y-6">
+            <h3 className="text-2xl font-bold">Connect With Us</h3>
+            <div className="flex space-x-4">
+              {socialMediaLinks.map((social, index) => (
+                <a
+                  key={index}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-3 rounded-full bg-gray-700 ${social.color} transform hover:scale-110 transition-all duration-300 shadow-md hover:shadow-lg`}
+                  aria-label={social.name}
+                >
+                  <social.icon className="w-6 h-6 text-white" />
+                </a>
+              ))}
+            </div>
+            <p className="text-gray-300 text-center max-w-md">
+              Follow us on social media for updates, learning tips, and community events at Saral Academy.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

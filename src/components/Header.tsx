@@ -34,17 +34,18 @@ const Header = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <img
-                src="/logo.jpg"
-                alt="Saral Academy Logo"
-                className="w-10 h-10 object-contain"
-                onError={(e) => {
-                  e.target.src = 'https://via.placeholder.com/40x40?text=Logo';
-                }}
-              />
+              <div className="relative flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition-transform duration-300 hover:scale-105 overflow-hidden">
+                <img
+                  src="/logo3.png"
+                  alt="Saral Academy Logo"
+                  className="w-12 h-12 object-cover rounded-full"
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/48x48?text=Logo';
+                  }}
+                />
+              </div>
               <div>
-                <h1 className="text-sm font-bold text-gray-800">༺꧁SARAL ACADEMY SCHOOL꧂༻
-</h1>
+                <h1 className="text-sm font-bold text-gray-800">༺꧁SARAL ACADEMY SCHOOL꧂༻</h1>
               </div>
             </Link>
 
