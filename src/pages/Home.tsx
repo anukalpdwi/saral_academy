@@ -108,7 +108,8 @@ const Home = () => {
                   The School of Language Skills & Development
                 </p>
                 <p className="text-lg text-gray-700 max-w-xl">
-                  Learn Hindi, Sanskrit, and English from the comfort of your home with 27+ years of educational excellence and personalized teaching approach.
+                  Saral Academy Language School makes learning simple, effective, and accessible. Whether you’re an Indian going abroad or a foreigner in India, we help you communicate confidently. Our online courses cover <span className='font-bold'>English, Hindi,
+                   regional Indian, and global languages like French, German, and Spanish</span>. With real-life conversations, cultural insights, and practical vocabulary, plus expert trainers and flexible support, we prepare you for smooth communication across borders.
                 </p>
               </div>
 
