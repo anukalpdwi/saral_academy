@@ -53,7 +53,7 @@ const Home = () => {
   const videoTestimonials = [
     {
       id: 1,
-      name: 'Ms. Mahila Allapati',
+      name: 'Ms. Akhila Allapati',
       role: 'Myra mother',
       thumbnail: 'https://img.youtube.com/vi/pISgcG28Hk8/mqdefault.jpg',
       duration: '2:30',
