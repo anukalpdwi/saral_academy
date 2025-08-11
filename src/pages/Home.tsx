@@ -86,9 +86,9 @@ const Home = () => {
   ];
 
   const socialMediaLinks = [
-    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/saralacademy', color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-500' },
+    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/saral.academy.school/', color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-500' },
     { name: 'Facebook', icon: Facebook, url: 'https://www.facebook.com/saralacademy', color: 'hover:bg-blue-600' },
-    { name: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@saralacademy', color: 'hover:bg-red-600' },
+    { name: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@SaralAcademyLanguageSchool', color: 'hover:bg-red-600' },
     { name: 'X', icon: X, url: 'https://x.com/saralacademy', color: 'hover:bg-gray-800' }
   ];
 
@@ -101,15 +101,15 @@ const Home = () => {
             {/* Content */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                  Welcome to <span className="text-transparent bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text">༺꧁SARAL ACADEMY SCHOOL꧂༻</span>
+                <h1 className="text-[23px] lg:text-4xl font-bold text-gray-800 leading-tight">
+                  Welcome to <br /><span className="text-transparent bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text">꧁SARAL ACADEMY SCHOOL꧂</span>
                 </h1>
                 <p className="text-xl text-gray-600 font-medium">
                   The School of Language Skills & Development
                 </p>
                 <p className="text-lg text-gray-700 max-w-xl">
                   Saral Academy Language School makes learning simple, effective, and accessible. Whether you’re an Indian going abroad or a foreigner in India, we help you communicate confidently. Our online courses cover <span className='font-bold'>English, Hindi,
-                   regional Indian, and global languages like French, German, and Spanish</span>. With real-life conversations, cultural insights, and practical vocabulary, plus expert trainers and flexible support, we prepare you for smooth communication across borders.
+                   regional Indian, and global languages</span> like French, German, and Spanish. With real-life conversations, cultural insights, and practical vocabulary, plus expert trainers and flexible support, we prepare you for smooth communication across borders.
                 </p>
               </div>
 
