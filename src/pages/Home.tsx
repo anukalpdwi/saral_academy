@@ -101,7 +101,7 @@ const Home = () => {
             {/* Content */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-[23px] lg:text-4xl font-bold text-gray-800 leading-tight">
+                <h1 className="text-[20px] lg:text-4xl font-bold text-gray-800 leading-tight">
                   Welcome to <br /><span className="text-transparent bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text">꧁SARAL ACADEMY SCHOOL꧂</span>
                 </h1>
                 <p className="text-xl text-gray-600 font-medium">
