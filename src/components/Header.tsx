@@ -45,7 +45,7 @@ const Header = () => {
                 />
               </div>
               <div>
-                <h1 className="text-sm font-bold text-gray-800">༺꧁SARAL ACADEMY SCHOOL꧂༻</h1>
+                <h1 className="text-[12px] font-bold text-gray-800">༺꧁SARAL ACADEMY SCHOOL꧂༻</h1>
               </div>
             </Link>
 
