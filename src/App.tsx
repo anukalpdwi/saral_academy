@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StickyContact from './components/StickyContact';
@@ -17,16 +17,11 @@ import Gallery from './pages/Gallery';
 
 // ScrollToTop component
 const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
   React.useEffect(() => {
-    const timer = setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 100); // Delay to ensure content renders
-    // Clear hash to prevent anchor scrolling
-    if (window.location.hash) {
-      window.history.replaceState(null, document.title, window.location.pathname);
-    }
-    return () => clearTimeout(timer);
-  }, [window.location.pathname]);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [pathname]);
 
   return null;
 };
@@ -46,6 +41,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="*" element={<div>404 - Page Not Found</div>} />
       </Routes>
       <Footer />
       <StickyContact />
