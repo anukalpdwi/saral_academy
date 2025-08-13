@@ -42,8 +42,8 @@ const Home = () => {
   ];
 
   const galleryImages = [
-    { id: 1, src: '/saral1.jpeg', alt: 'Online Class Session', category: 'Teaching' },
-    { id: 2, src: '/saral2.jpeg', alt: 'Student Achievement', category: 'Success' },
+    { id: 1, src: '/poster1.png', alt: 'Online Class Session', category: 'Teaching' },
+    { id: 2, src: '/poster2.png', alt: 'Student Achievement', category: 'Success' },
     { id: 3, src: '/saral3.jpeg', alt: 'Learning Materials', category: 'Resources' },
     { id: 4, src: '/saral4.jpeg', alt: 'Cultural Event', category: 'Culture' },
     { id: 5, src: '/saral5.jpeg', alt: 'Group Discussion', category: 'Teaching' },

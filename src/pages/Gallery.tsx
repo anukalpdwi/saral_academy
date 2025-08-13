@@ -19,14 +19,14 @@ const Gallery = () => {
       title: 'Online Hindi Class Session',
       category: 'teaching',
       description: 'Interactive online Hindi learning session with personalized attention',
-      image: '/saral1.jpeg'
+      image: '/poster1.png'
     },
     {
       id: 2,
       title: 'Student Achievement Certificate',
       category: 'success',
       description: 'ICSE student scoring 95% in Hindi after joining our program',
-      image: '/saral2.jpeg'
+      image: '/poster2.png'
     },
     {
       id: 3,
