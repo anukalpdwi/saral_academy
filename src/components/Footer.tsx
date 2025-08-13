@@ -97,11 +97,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-orange-400 flex-shrink-0" />
-                <span className="text-gray-300">info@saralacademy.com</span>
+                <span className="text-gray-300">saralacademylanguageschool@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-orange-400 flex-shrink-0" />
-                <span className="text-gray-300">Nashik, Maharashtra</span>
+                <span className="text-gray-300">Hyderabad, India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="w-4 h-4 text-orange-400 flex-shrink-0" />
