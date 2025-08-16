@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X, Calendar, Clock as ClockIcon, Instagram, Facebook, Youtube } from 'lucide-react';
+import { ArrowRight, Star, Users, Clock, BookOpen, CheckCircle, Play, Award, Heart, Target, X, Calendar, Clock as ClockIcon, Instagram, Facebook, Youtube , Linkedin} from 'lucide-react';
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -97,7 +97,8 @@ const Home = () => {
     { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/saral.academy.school/', color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-500' },
     { name: 'Facebook', icon: Facebook, url: 'https://www.facebook.com/saralacademy', color: 'hover:bg-blue-600' },
     { name: 'YouTube', icon: Youtube, url: 'https://www.youtube.com/@SaralAcademyLanguageSchool', color: 'hover:bg-red-600' },
-    { name: 'X', icon: X, url: 'https://x.com/saralacademy', color: 'hover:bg-gray-800' }
+    { name: 'X', icon: X, url: 'https://x.com/saralacademy', color: 'hover:bg-gray-800' },
+    { name: 'Linkedin', icon: Linkedin, url: 'https://www.linkedin.com/in/akhilesh-hathila/', color: 'hover:bg-gray-800' }
   ];
 
   return (
