@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Saral Academy</h3>
-                <p className="text-sm text-gray-400">Language School</p>
+                <p className="text-sm text-gray-400">The School of Language Skills & Development</p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-sm text-gray-400">
               <Heart className="w-4 h-4 text-red-400" />
-              <span>Made with care for language learners</span>
+              <span>Made with care for language learners by <a className='text-red-300' href="https://www.goldenbirdtech.com/"> The GoldenBird Tech</a></span>
             </div>
           </div>
 

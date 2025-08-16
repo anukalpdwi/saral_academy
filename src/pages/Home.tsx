@@ -82,6 +82,14 @@ const Home = () => {
       thumbnail: 'https://img.youtube.com/vi/Xq6lxEEUYlE/mqdefault.jpg',
       duration: '0:38',
       url: 'https://www.youtube.com/embed/Xq6lxEEUYlE?autoplay=1'
+    },
+    {
+      id: 5,
+      name: 'Abhinav',
+      role: '10th Grade Student',
+      thumbnail: 'https://img.youtube.com/vi/SziimTav7d0/mqdefault.jpg',
+      duration: '0:38',
+      url: 'https://www.youtube.com/embed/SziimTav7d0'
     }
   ];
 
