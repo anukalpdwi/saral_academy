@@ -179,8 +179,8 @@ const Home = () => {
               <div className="bg-gradient-to-br from-orange-200 to-red-200 rounded-3xl p-8 shadow-2xl">
                 <div className="bg-white rounded-2xl p-6 space-y-6">
                   <div className="text-center">
-                    <div className="w-24 h-24 bg-gradient-to-br from-orange-400 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white text-3xl">👨‍🏫</span>
+                    <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                      <img src="/founder.jpeg" alt="Dr. Akhilesh Hathila" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="text-xl font-bold text-gray-800">Dr. Akhilesh Hathila</h3>
                     <p className="text-gray-600">Founder & Principal Educator</p>
